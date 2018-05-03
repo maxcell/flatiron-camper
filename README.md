@@ -28,20 +28,20 @@ GET /parks
 
 # Response
 [
-	{
-		"id": 1,
-		"max_capacity": 17,
-		"has_showers": true,
-		"cars_allowed": false,
-		"reservations": [
-			{
-				"id": 1,
-				"camper_name": "Prince"
-			},
-			{
-				"id": 2,
-				"camper_name": "Dick"
-			}
+  {
+  	"id": 1,
+  	"max_capacity": 17,
+  	"has_showers": true,
+  	"cars_allowed": false,
+  	"reservations": [
+  		{
+  			"id": 1,
+  			"camper_name": "Prince"
+  		},
+  		{
+  			"id": 2,
+  			"camper_name": "Dick"
+  		}
     ]
   },
   // ...
@@ -65,8 +65,8 @@ POST /reservations
 
 # Response
 {
-	"id": 17,
-	"camper_name": "Garry",
+  "id": 17,
+  "camper_name": "Garry",
   "park_id": 1
 }
 
@@ -80,8 +80,8 @@ DELETE /reservations/<reservation_id>
 
 # Response
 {
-	"id": 17,
-	"camper_name": "Garry",
-	"park_id": 1
+  "id": 17,
+  "camper_name": "Garry",
+  "park_id": 1
 }
 ```
