@@ -10,6 +10,7 @@ All you have to do is build out a simple MVP that...
   * Shows if the park allows cars
   * Shows how many open reservations are left
 * Make a reservation
+  * **If the campsite is at capacity, a user should not be able to create a reservation. Make sure to implement some user feedback for this.**
 * Delete a reservation
 
 
